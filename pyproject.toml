@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "tempo-real-etl"
+version = "0.1.0"
+description = ""
+authors = ["Fasri <106215404+Fasri@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selenium = "^4.25.0"
+pandas = "^2.2.3"
+webdriver-manager = "^4.0.2"
+openpyxl = "^3.1.5"
+pydrive = "^1.3.1"
+pydrive2 = "^1.20.0"
+google-auth = "^2.35.0"
+google-auth-oauthlib = "^1.2.1"
+google-api-python-client = "^2.149.0"
+google-auth-httplib2 = "^0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
